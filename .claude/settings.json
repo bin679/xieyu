@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mysql -uroot -p123456 *)",
+      "Bash(mvn *)",
+      "Bash(curl *)",
+      "Bash(net *)",
+      "Bash(powershell *)",
+      "WebFetch(domain:skills.sh)",
+      "Bash(java --version)",
+      "Bash(mysqladmin ping *)",
+      "Bash(netstat -ano)",
+      "Bash(powershell.exe -Command \"Get-NetTCPConnection -LocalPort 8080 -ErrorAction SilentlyContinue | Select-Object LocalPort, OwningProcess | Format-List\")",
+      "Bash(powershell.exe -Command \"Get-Process -Id 24976 -ErrorAction SilentlyContinue | Select-Object Id, ProcessName, Path | Format-List\")",
+      "Bash(taskkill -f -pid 24976)",
+      "Bash(powershell.exe -Command \"Stop-Process -Id 24976 -Force\")",
+      "Bash(python3 -m json.tool)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\alex"
+    ]
+  }
+}
